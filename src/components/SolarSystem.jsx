@@ -4,7 +4,7 @@ export default class SolarSystem extends React.Component {
   render() {
     return (
       <div data-testid="solar-system">
-        <h2>Incluir conteúdo!</h2>
+        <h2>/Planetas/i</h2>
       </div>
     );
   }
