@@ -1,7 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Header extends Component {
+export default class Header extends React.Component {
   render() {
-    return (<h1>Sistema Solar</h1>);
+    return (
+      <header>
+        <h1>Sistema Solar</h1>
+      </header>);
   }
 }
