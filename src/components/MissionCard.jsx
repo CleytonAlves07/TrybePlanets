@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class MissionCard extends React.Component {
   render() {
@@ -9,13 +10,13 @@ export default class MissionCard extends React.Component {
           { name }
         </p>
         <p data-testid="mission-year">
-          {year}
+          { year }
         </p>
         <p data-testid="mission-country">
-          {country}
+          { country }
         </p>
         <p data-testid="mission-destination">
-          {destination}
+          { destination }
         </p>
       </div>
     );
