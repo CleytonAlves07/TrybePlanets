@@ -5,8 +5,8 @@ export default class PlanetCard extends React.Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">{ planetName }</p>
+      <div className="cardPlanet" data-testid="planet-card">
+        <p className="name" data-testid="planet-name">{ planetName }</p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
       </div>
     );
