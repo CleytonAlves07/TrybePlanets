@@ -72,6 +72,7 @@ h1:hover, h2:hover {
 }
 
 .missionsCard:hover {
+  background-color: rgba(0, 0, 0, 0.3);
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
 }
@@ -81,10 +82,11 @@ h1:hover, h2:hover {
   display: flex;
   font-size: large;
   justify-content: center;
+  width: 100%;
 }
 
 img {
-  width: 150px;
+  width: 100%;
 }
 
 .missionsName {
@@ -112,8 +114,9 @@ img {
   text-align: center;
 }
 
+
 .yearMission, .country, .destination {
-  font-size: large;
+  font-size: x-large;
   height: 20px;
   text-align: center;
   width: 100vw;
