@@ -6,10 +6,11 @@
   padding: 0;
 }
 
-.allpage {
+body {
   background-image: url('./images/background.png');
   background-size: cover;
 }
+
 
 header {
   fill: aqua;
@@ -97,7 +98,7 @@ img {
 }
 
 .nameMission {
-  color: red;
+  color: royalblue;
   display: flex;
   font-size: x-large;
   font-weight: 700;
