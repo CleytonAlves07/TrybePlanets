@@ -9,13 +9,13 @@ export default class MissionCard extends React.Component {
         <p className="nameMission" data-testid="mission-name">
           { name }
         </p>
-        <p data-testid="mission-year">
+        <p className="yearMission" data-testid="mission-year">
           { year }
         </p>
-        <p data-testid="mission-country">
+        <p className="country" data-testid="mission-country">
           { country }
         </p>
-        <p data-testid="mission-destination">
+        <p className="destination" data-testid="mission-destination">
           { destination }
         </p>
       </div>
